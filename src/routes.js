@@ -8,7 +8,8 @@ const LoginController = require('./controllers/LoginController');
 const RegistrationController = require('./controllers/RegistrationController');
 const ApprovalController = require('./controllers/ApprovalController');
 const RejectionController = require('./controllers/RejectionController');
-const uploadToS3 = require('./config/s3Uploads');
+const uploadToS3 = require('./config/s3Upload');
+
 const routes = express.Router();
 
 

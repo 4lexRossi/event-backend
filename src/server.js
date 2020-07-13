@@ -17,7 +17,7 @@ if (process.env.NODE_ENV !== 'production'){
 } 
 
 try {
-    mongoose.connect(process.env.MONG0_DB_CONNECTION, {
+    mongoose.connect(process.env.MONGO_DB_CONNECTION, {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     })

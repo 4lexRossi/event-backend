@@ -4,7 +4,7 @@ const multerS3 = require('multer-s3')
 const path = require('path')
 
 const s3 = new aws.S3({
-  accessKeyId: process.env.ACCES_KEY_ID,
+  accessKeyId: process.env.ACCESS_KEY_ID,
   secretAccessKey: process.env.SECRET_ACCESS_KEY
 })
 
